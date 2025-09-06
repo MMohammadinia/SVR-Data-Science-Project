@@ -37,7 +37,7 @@ Installation
 
 Clone the repository:
 
-git clone https://github.com/your-username/SVR-Data-Science-Project.git
+git clone https://github.com/MMohammadinia/SVR-Data-Science-Project.git
 cd SVR-Data-Science-Project
 
 
