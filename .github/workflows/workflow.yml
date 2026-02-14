@@ -3,8 +3,6 @@ name: CI Pipeline
 on:
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
 
 jobs:
   test:
@@ -28,12 +26,11 @@ jobs:
         pip install flake8 nose flask
 
     - name: Lint with flake8
-      run: |
-        python -m flake8 .
+      run: python -m flake8 .
 
     - name: Run unit tests with nose
-      run: |
-        python -m nose
+      run: python -m nose
 
     - name: Complete job
       run: echo "CI Pipeline completed successfully"
+
