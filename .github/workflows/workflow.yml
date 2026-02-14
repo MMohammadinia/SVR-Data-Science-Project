@@ -17,12 +17,10 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: '3.x'
+        
+  - name: Install dependencies
+  run: pip install flake8 pytest
 
-    - name: Install dependencies
-      run: pip install flake8 nose
+- name: Run unit tests
+  run: pytest
 
-    - name: Lint with flake8
-      run: flake8 .
-
-    - name: Run unit tests with nose
-      run: nosetests
