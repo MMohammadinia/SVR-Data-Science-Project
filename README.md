@@ -1,4 +1,4 @@
-SVR-Data-Science-Project
+# SVR-Data-Science-Project
 
 A Python project demonstrating Support Vector Regression (SVR) for predictive modeling and data analysis. This repository showcases how SVR can be applied to real-world datasets using Python, with steps for data preprocessing, model training, evaluation, and visualization.
 
